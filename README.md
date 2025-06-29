@@ -32,7 +32,26 @@ It allows users to search for any country and instantly get relevant information
 5. All content is dynamically inserted into a responsive UI styled manually with CSS.
 
 ---
+##🛣️ Roadmap
+✈️ Planned: Flight search integration with Amadeus API
 
+🌐 Add language selector / translations
+
+💾 Save favorite countries for quick access
+
+---
+🧠 Author
+Built by Me: Jaï– learning fullstack development and A.I through real projects.
+
+---
+📸 Preview
+![image](https://github.com/user-attachments/assets/f41c53c5-9dd8-496b-be96-20b163271767)
+
+---
+📄 License
+MIT – free to use, modify and build upon.
+
+---
 ## 🔐 API Key & `config.js`
 
 This app uses the **OpenWeather API**, which requires an API key.
@@ -53,24 +72,7 @@ Clone the repo or download the ZIP
 
 Inside the project folder, create a file named config.js and add:
 
-js
-Copier
-Modifier
 const API_KEY = "your_api_key_here";
 Open index.html in your browser. That’s it.
 
-🛣️ Roadmap
-✈️ Planned: Flight search integration with Amadeus API
 
-🌐 Add language selector / translations
-
-💾 Save favorite countries for quick access
-
-🧠 Author
-Built by Me: Jaï– learning fullstack development and A.I through real projects.
-
-📸 Preview
-![image](https://github.com/user-attachments/assets/f41c53c5-9dd8-496b-be96-20b163271767)
-
-📄 License
-MIT – free to use, modify and build upon.
