@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Tip App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="light-mode">
+    <div class="travel-app">
+      <div class="travel-app__container">
+        <!-- Header -->
+        <header class="travel-app__header">
+          <h1 class="travel-app__title">Travel Tip App</h1>
+          <p class="travel-app__subtitle">
+            Search for any country and get useful information instantly.
+          </p>
+        </header>
+
+        <!-- Search Section -->
+        <section class="travel-app__search">
+          <div class="travel-app__search-input">
+            <svg
+              class="travel-app__search-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z"
+              />
+            </svg>
+            <input
+              type="text"
+              id="countryInput"
+              class="travel-app__input"
+              placeholder="Enter a country name"
+            />
+          </div>
+          <button id="searchBtn" class="travel-app__search-btn">Search</button>
+        </section>
+
+        <!-- Results -->
+        <div class="travel-app__results">
+          <div
+            id="result"
+            class="travel-app__result-card"
+            style="display: none"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="data.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
