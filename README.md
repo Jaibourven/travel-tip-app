@@ -43,3 +43,34 @@ To keep your key private:
 
 ```js
 const API_KEY = "your_openweather_api_key";
+
+This file is excluded from version control using .gitignore.
+
+✅ Important: When cloning or downloading this project, you must create your own config.js file with your personal key.
+
+🧪 How to Use Locally
+Clone the repo or download the ZIP
+
+Inside the project folder, create a file named config.js and add:
+
+js
+Copier
+Modifier
+const API_KEY = "your_api_key_here";
+Open index.html in your browser. That’s it.
+
+🛣️ Roadmap
+✈️ Planned: Flight search integration with Amadeus API
+
+🌐 Add language selector / translations
+
+💾 Save favorite countries for quick access
+
+🧠 Author
+Built by Me: Jaï– learning fullstack development and A.I through real projects.
+
+📸 Preview
+![image](https://github.com/user-attachments/assets/f41c53c5-9dd8-496b-be96-20b163271767)
+
+📄 License
+MIT – free to use, modify and build upon.
